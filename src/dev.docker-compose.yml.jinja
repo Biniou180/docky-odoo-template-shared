@@ -95,6 +95,8 @@ services:
       - ./data/addons:/data/odoo/addons
       - ./data/filestore:/data/odoo/filestore
       - ./data/sessions:/data/odoo/sessions
+      # pytest
+      - ./odoo/.pytest_cache:/odoo/.pytest_cache
       # mount home dir
       # - ./.home/.bash_history:/home/odoo/.bash_history
   kwkhtmltopdf:

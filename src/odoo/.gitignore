@@ -12,6 +12,7 @@
 /repo.yaml
 /pip-selfcheck.json
 
+/.pytest_cache
 /external-src/
 /src/
 /links/
